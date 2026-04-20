@@ -1,47 +1,84 @@
-# 📊 CRM Funnel Analysis Dashboard (SQL + Power BI)
-
-## 🚀 Overview
-This project analyzes a CRM sales funnel to understand lead conversion efficiency, revenue drivers, and bottlenecks in the sales process using SQL and Power BI.
-
-The goal is to identify where leads drop off and how conversion rates can be improved across sources, industries, and response times.
-
----
+# 📊 CRM Conversion Analysis & Funnel Dashboard
 
 ## 📌 Problem Statement
-Businesses often struggle with:
-- Low conversion rates
-- Poor lead quality
-- Inefficient sales follow-ups
-- Lack of visibility in funnel drop-offs
 
-This project solves that using data-driven analysis.
+Businesses often struggle to identify where leads drop off in the sales funnel, resulting in lower conversion rates and missed revenue opportunities.
+This project analyzes CRM data to pinpoint bottlenecks and provide actionable insights to improve funnel performance.
 
 ---
 
-## 🛠️ Tools Used
-- SQL (Data modeling & analysis)
-- Power BI (Dashboard creation)
-- Excel (Dataset preparation)
-- GitHub (Version control & portfolio)
+## 📊 Dataset
+
+Simulated CRM dataset containing:
+
+* Lead ID
+* Funnel Stage (Lead → Contacted → Qualified → Proposal)
+* Country, Source, Industry
+* Revenue
+* Dates
 
 ---
 
-## 📊 Dashboard Features
-- KPI Cards: Total Leads, Conversion Rate, Revenue, Avg Deal Size
-- Funnel Analysis: Lead → Won conversion stages
-- Source-wise Conversion Rate
-- Industry-wise Revenue breakdown
-- Lead Score impact on conversion
-- Response Time impact on sales performance
+## 🛠 Tools Used
+
+* **SQL** – Data extraction, cleaning, and transformation
+* **Power BI** – Dashboard development and KPI tracking
+* **Excel** – Initial data structuring
 
 ---
 
-## 🧠 Key Insights
-- Significant drop-off observed between Qualified → Proposal stage
-- Faster response times lead to higher conversion rates
-- Certain sources (e.g., Referral) have higher-quality leads
-- IT & Finance industries generate highest revenue
+## 📈 Key KPIs
+
+* Contact Rate
+* Qualification Rate
+* Conversion Rate
+* Total Revenue
 
 ---
 
-## 📁 Project Structure
+## 🔍 Key Insights
+
+* Significant drop-off observed between **Qualified and Proposal stages**, indicating inefficiencies in deal progression
+* Referral sources show higher conversion efficiency, while Email drives volume but underperforms in closing
+* Industry-level variation highlights differences in conversion effectiveness across segments
+* Funnel analysis reveals that mid-to-late stage optimization is critical for improving final outcomes
+
+---
+
+## 💡 Business Impact
+
+* Identified key bottlenecks affecting deal progression and conversion efficiency
+* Recommended targeted improvements in follow-ups and qualification strategy
+* Demonstrated how improving stage-wise conversion can significantly increase overall revenue
+
+---
+
+## 📉 Dashboard Preview
+
+![CRM Funnel Dashboard](dashboard_preview.png)
+
+*Dashboard showcasing funnel performance, KPI tracking, and conversion insights across country, source, and industry*
+
+---
+
+## 🚀 Project Structure
+
+```
+/data
+/sql
+/powerbi
+README.md
+dashboard_preview.png
+```
+
+---
+
+## 🔗 Project Link
+
+👉 https://github.com/yashsh0913/crm-conversion-analysis-sql-powerbi
+
+---
+
+## 📫 Connect With Me
+
+* LinkedIn: https://www.linkedin.com/in/yash-sharma-73300a249/
