@@ -1,0 +1,31 @@
+CREATE TABLE crm_funnel (
+    Lead_ID INT PRIMARY KEY,
+    Source VARCHAR(50),
+    Country VARCHAR(50),
+    Industry VARCHAR(50),
+    Lead_Score INT,
+    Response_Time_Hours INT,
+    Contacted VARCHAR(5),
+    Qualified VARCHAR(5),
+    Proposal_Sent VARCHAR(5),
+    Closed_Won VARCHAR(5),
+    Deal_Size DECIMAL(10,2),
+    Revenue DECIMAL(10,2),
+    Lost_Reason VARCHAR(100)
+);
+INSERT INTO crm_funnel VALUES
+(1, 'LinkedIn', 'India', 'IT', 85, 2, 'Yes', 'Yes', 'Yes', 'Yes', 12000, 12000, NULL),
+(2, 'Google Ads', 'USA', 'Finance', 60, 10, 'Yes', 'Yes', 'Yes', 'No', 8000, 0, 'High Price'),
+(3, 'Referral', 'India', 'Healthcare', 90, 1, 'Yes', 'Yes', 'Yes', 'Yes', 15000, 15000, NULL),
+(4, 'Website', 'UK', 'IT', 45, 30, 'Yes', 'No', 'No', 'No', 5000, 0, 'Low Budget'),
+(5, 'LinkedIn', 'India', 'Retail', 70, 5, 'Yes', 'Yes', 'No', 'No', 7000, 0, 'No Response'),
+(6, 'Google Ads', 'USA', 'IT', 88, 3, 'Yes', 'Yes', 'Yes', 'Yes', 20000, 20000, NULL),
+(7, 'Referral', 'Canada', 'Finance', 55, 20, 'Yes', 'Yes', 'No', 'No', 6000, 0, 'Competition'),
+(8, 'Website', 'India', 'Healthcare', 40, 48, 'No', 'No', 'No', 'No', 4000, 0, 'No Contact'),
+(9, 'LinkedIn', 'UK', 'Finance', 78, 6, 'Yes', 'Yes', 'Yes', 'Yes', 11000, 11000, NULL),
+(10, 'Google Ads', 'India', 'Retail', 65, 12, 'Yes', 'Yes', 'Yes', 'No', 9000, 0, 'High Price'),
+(11, 'Referral', 'USA', 'IT', 92, 2, 'Yes', 'Yes', 'Yes', 'Yes', 25000, 25000, NULL),
+(12, 'Website', 'Canada', 'Retail', 50, 15, 'Yes', 'No', 'No', 'No', 3000, 0, 'Low Budget'),
+(13, 'LinkedIn', 'India', 'Finance', 82, 4, 'Yes', 'Yes', 'Yes', 'Yes', 14000, 14000, NULL),
+(14, 'Google Ads', 'UK', 'Healthcare', 58, 18, 'Yes', 'Yes', 'No', 'No', 7500, 0, 'No Response'),
+(15, 'Referral', 'India', 'IT', 95, 1, 'Yes', 'Yes', 'Yes', 'Yes', 30000, 30000, NULL);
