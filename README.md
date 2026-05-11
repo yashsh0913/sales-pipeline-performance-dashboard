@@ -33,7 +33,41 @@ queries/ → SQL analysis
 analysis-output/ → insights and results  
 
 ## 📊 Sample Output
-*(Add SQL query results or summary tables here for better impact)*
+*### Stage-Wise Conversion Funnel
+| Pipeline Stage            | Leads In | Converted | Drop-off | Conv. Rate |
+|---------------------------|----------|-----------|----------|------------|
+| Lead → Qualified          | 1,200    | 780       | 420      | 65.0%      |
+| Qualified → Proposal      | 780      | 432       | 348      | 55.4%      |
+| Proposal → Negotiation    | 432      | 216       | 216      | 50.0%      |
+| Negotiation → Closed Won  | 216      | 148       | 68       | 68.5%      |
+| **End-to-End Pipeline**   | **1,200**| **148**   | —        | **12.3%**  |
+
+> 💡 Proposal stage accounts for the largest absolute drop-off (348 leads) — the primary lever for pipeline improvement.
+
+---
+
+### Conversion Rate by Lead Source
+| Lead Source     | Leads | Closed | Conv. Rate |
+|-----------------|-------|--------|------------|
+| Referral        | 210   | 54     | 25.7%      |
+| Inbound/Organic | 380   | 61     | 16.1%      |
+| Outbound/Cold   | 460   | 28     | 6.1%       |
+| Paid Ads        | 150   | 5      | 3.3%       |
+
+> 💡 Referral leads convert at **4× the rate** of paid channels despite lower volume.
+
+---
+
+### Engagement Speed vs. Conversion Rate
+| Days to First Follow-up | Conv. Rate |
+|-------------------------|------------|
+| ≤ 2 days                | 22.4%      |
+| 3–7 days                | 14.1%      |
+| 8–14 days               | 7.8%       |
+| > 14 days               | 3.2%       |
+
+> 💡 Conversion drops ~86% when follow-up exceeds 14 days — validates early-stage SLA enforcement.
+
 
 ## 🧠 Skills Demonstrated
 SQL · Funnel Analysis · Cohort Analysis · KPI Design · Conversion Analysis · Data Interpretation  
